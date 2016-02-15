@@ -1,0 +1,65 @@
+body{
+	background-image: url(background.jpg);
+}
+
+div.body{
+	margin-right: auto;
+	margin-left: auto;
+	width: 960px;
+	background-color: white;
+}
+
+li{
+	display: inline;
+	margin-right: 20px;
+}
+
+ul{
+	padding: 12px;
+}
+
+div.menu{
+	background-color: #ad2406;
+	font-family: Arial;
+	color: white;
+
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+div.text{
+	font-family: firstfont2;
+	padding: 20px;
+}
+
+@font-face{
+    font-family: firstfont;
+    src: url(font1.otf);
+}
+
+@font-face{
+    font-family: firstfont2;
+    src: url(font2.otf);
+}
+
+
+div.logo{
+	font-family: firstfont;
+	margin-left: 480px;
+	color: white;
+	font-size: 90pt
+}
+
+input{
+	float: right;
+}
+
+div.under{
+	background-color: grey;
+	padding: 10px;
+	font-size: 15px;
+	text-align: center;
+}
